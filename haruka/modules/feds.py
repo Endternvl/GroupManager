@@ -35,7 +35,7 @@ import haruka.modules.sql.feds_sql as sql
 #
 # Total spended for making this features is 68+ hours
 
-LOGGER.info("Original federation module by MrYacha, reworked by Mizukito Akito (@RealAkito) on Telegram.")
+LOGGER.info("Original fedoration by unknown, and NightNates rework.")
 
 
 FBAN_ERRORS = {
