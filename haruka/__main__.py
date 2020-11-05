@@ -29,17 +29,11 @@ I'm group manager bot and Anti-spam for RR Players🃏
 Activate Anti-spam protection in your BM by this command : 
 /antispam on 
 
-Made from the source code of [Aditya 🇮🇳](t.me/xditya)
+Made by [CDN/ADMINS of ChillNate](https://discord.link/ChillNate)
 
-Special thanks to [this person](t.me/denver02) for helping me.
+Special thanks to [Skaryetsky, owner + creator of this bot and creator of ChillNate](https://bit.ly/Scinvite)
 
-Deploy a bot like me [now](www.github.com/xditya/GroupManager)
-
-Watch [video tutorial](https://www.youtube.com/watch?v=gXXFpTAk6Vo&feature=youtu.be) on deploying me.
-
-Click /help or Help button below to find out more about how to use me to my full potential.
-
- Add me to a group by clicking [here](http://t.me/tg_GroupManagerBot?startgroup=true).
+Click !help or Help button below to find out more about how to use me to my full potential.
 """
 
 
@@ -213,7 +207,7 @@ def control_panel(bot, update):
                 text += f"\nConnected chat - *{chatG.title}* (you sudo)"
                 keyboard += [[InlineKeyboardButton(text="👥 Group settings (SUDO)", callback_data="cntrl_panel_G_back")]]
             else:
-                text += f"\nConnected chat - *{chatG.title}* (you aren't an admin!)"
+                text += f"\nConnected chat - *{chatG.title}* (you aren't admin or you dont have a permission)"
         else:
             text += "\nNo chat connected!"
 
